@@ -1,0 +1,4 @@
+
+.btn-primary {
+  @apply bg-red-400 m-4 p-2 rounded;
+}

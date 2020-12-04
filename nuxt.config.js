@@ -27,6 +27,7 @@ export default {
   buildModules: ['@nuxtjs/tailwindcss'],
 
 
+
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
@@ -36,7 +37,26 @@ export default {
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    exposeConfig: true
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    postcss: {
+      // Add plugin names as key and arguments as value
+      // Install them before as dependencies with npm or yarn
+      plugins: {
+        // Disable a plugin by passing false as value
+        'postcss-import': {},
+        'postcss-url': {},
+       // 'postcss-url': false,
+       // 'postcss-nested': {},
+       // 'postcss-responsive-type': {},
+       // 'postcss-hexrgba': {}
+      },
+
+    }
   }
 }
