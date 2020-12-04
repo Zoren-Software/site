@@ -26,8 +26,6 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: ['@nuxtjs/tailwindcss'],
 
-
-
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
@@ -51,10 +49,6 @@ export default {
         // Disable a plugin by passing false as value
         'postcss-import': {},
         'postcss-url': {},
-       // 'postcss-url': false,
-       // 'postcss-nested': {},
-       // 'postcss-responsive-type': {},
-       // 'postcss-hexrgba': {}
       },
 
     }
