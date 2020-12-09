@@ -1,4 +1,41 @@
 
-.btn-primary {
-  @apply bg-red-400 m-4 p-2 rounded;
+.btn {
+  @apply px-4 py-2 m-2 transition duration-500 border rounded-md shadow-lg select-none;
 }
+
+.btn:focus {
+  @apply outline-none;
+}
+
+.btn-primary {
+  @apply text-white bg-blue-500 border-blue-500;
+}
+
+.btn-primary:hover {
+  @apply bg-blue-600;
+}
+
+.btn-secondary {
+  @apply text-white bg-gray-500 border-gray-500;
+}
+
+.btn-secondary:hover {
+  @apply bg-gray-600;
+}
+
+.btn-warning {
+  @apply text-white bg-yellow-500 border-yellow-500;
+}
+
+.btn-warning:hover {
+  @apply bg-yellow-600;
+}
+
+.btn-danger {
+  @apply text-white bg-red-500 border-red-500;
+}
+
+.btn-danger:hover {
+  @apply bg-red-600;
+}
+

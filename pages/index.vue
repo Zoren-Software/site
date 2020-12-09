@@ -1,7 +1,9 @@
 <template>
   <div class="container">
-    <button class="p-4 m-2 bg-blue-400 rounded">Button</button>
-    <button class="btn-primary">Button</button>
+    <button class="btn btn-primary">Button</button>
+    <button class="btn btn-secondary">Button</button>
+    <button class="btn btn-danger">Button</button>
+    <button class="btn btn-warning">Button</button>
   </div>
 </template>
 
