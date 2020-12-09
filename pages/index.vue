@@ -1,9 +1,6 @@
 <template>
   <div class="container">
-    <button class="btn btn-primary">Button</button>
-    <button class="btn btn-secondary">Button</button>
-    <button class="btn btn-danger">Button</button>
-    <button class="btn btn-warning">Button</button>
+
   </div>
 </template>
 
