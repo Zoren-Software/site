@@ -1,7 +1,8 @@
 <template>
   <div>
-    <nav-bar :links="links"/>
+    <nav-bar :links="links" />
     <Nuxt />
+    <footer-custom></footer-custom>
   </div>
 </template>
 
@@ -11,13 +12,21 @@ export default {
     return {
       links: [
         {
-          to: "",
-          title: ""
+          to: "/quem-somos",
+          title: "Quem somos"
+        },
+        {
+          to: "/solucoes",
+          title: "Soluções"
+        },
+        {
+          to: "/",
+          title: "Home"
         }
       ]
-    }
-  },
-}
+    };
+  }
+};
 </script>
 
 <style>

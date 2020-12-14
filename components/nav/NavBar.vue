@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex flex-wrap items-center justify-between bg-white border-t-2 border-blue-700 border-solid shadow lg:px-12"
+    class="flex flex-wrap items-center justify-between mb-3 bg-white border-t-2 border-blue-700 border-solid shadow lg:px-12"
   >
     <div
       class="flex justify-between w-full pb-5 pl-6 pr-2 border-b-2 border-gray-300 border-solid lg:w-auto lg:border-b-0 lg:pb-0"
@@ -35,24 +35,14 @@
       <div
         class="flex-row-reverse flex-grow w-full px-8 menu lg:block lg:flex lg:items-center lg:w-auto lg:px-3 "
       >
-        <a v-for="(link, index) in links" :key="index"
+        <NuxtLink
+          v-for="(link, index) in links"
+          :key="index"
           :to="link.to"
           class="block btn btn-primary lg:inline-block lg:mt-0 hover:text-white hover:bg-blue-700"
         >
-          {{link.title}}
-        </a>
-        <a
-          href="#responsive-header"
-          class="block btn btn-primary lg:inline-block lg:mt-0 hover:text-white hover:bg-blue-700"
-        >
-          Soluções
-        </a>
-        <a
-          href="#responsive-header"
-          class="block btn btn-primary lg:inline-block lg:mt-0 hover:text-white hover:bg-blue-700"
-        >
-          Home
-        </a>
+          {{ link.title }}
+        </NuxtLink>
       </div>
     </div>
   </nav>
@@ -66,5 +56,5 @@ export default {
       required: true
     }
   }
-}
+};
 </script>
