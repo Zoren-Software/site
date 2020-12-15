@@ -5,20 +5,17 @@
         <h1 class="px-10 mt-4 mb-5 font-sans text-2xl font-bold md:pt-20 md:text-3xl lg:text-5xl">Desenvolvimento de Software</h1>
         <!-- description -->
         <div
-          class="w-full px-10 pb-4 text-gray-500 md:text-2xl text-md description sm: md:w-2/3"
+          class="w-full px-10 pb-10 text-gray-500 sm:pb-5 md:text-2xl text-md description sm: md:w-2/3"
         >
           Nós ajudamos você a gerenciar e criar o software que contribuirá com o sucesso da sua empresa. Somos profissionais altamente qualificados focados em entregar o melhor software para sua empresa.
         </div>
       </div>
-      <div class="" >
-        <div class="flex flex-col justify-center min-h-screen pb-6 sm:py-12">
-          <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+      <div>
+        <div class="flex flex-col justify-center pb-6 sm:py-12">
+          <div class="relative py-3 sm:max-w-xl sm:mx-auto md:mr-6">
             <div class="absolute inset-0 transform -skew-y-6 shadow-lg bg-gradient-to-r from-blue-400 to-blue-800 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-            <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+            <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 md:px-8 md:pb-12 md:pt-5">
               <div class="max-w-md mx-auto">
-                <div>
-                  <img src="/img/logo.svg" class="h-7 sm:h-8" />
-                </div>
                 <div class="divide-y divide-gray-200">
                   <div class="py-8 space-y-4 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7">
                     <p class="px-7">Criamos o software para atender com as suas aspectativas:</p>
