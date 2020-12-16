@@ -2,10 +2,10 @@
   <div class="container mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2">
       <div>
-        <h1 class="px-10 mt-4 mb-5 font-sans text-2xl font-bold md:pt-20 md:text-3xl lg:text-5xl">Desenvolvimento de Software</h1>
+        <h1 class="px-10 mt-4 mb-5 font-sans text-2xl font-bold sm:my-10 md:pt-20 sm:text-4xl md:text-3xl lg:text-5xl">Desenvolvimento de Software</h1>
         <!-- description -->
         <div
-          class="w-full px-10 pb-10 text-gray-500 sm:pb-5 md:text-2xl text-md description sm: md:w-2/3"
+          class="w-full px-10 pb-10 text-gray-500 sm:pb-5 md:text-2xl sm:text-2xl text-md description sm: md:w-2/3"
         >
           Nós ajudamos você a gerenciar e criar o software que contribuirá com o sucesso da sua empresa. Somos profissionais altamente qualificados focados em entregar o melhor software para sua empresa.
         </div>
