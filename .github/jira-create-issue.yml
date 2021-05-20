@@ -1,2 +1,0 @@
-- name: Jira Create issue
-  uses: atlassian/gajira-create@v2.0.1
