@@ -18,3 +18,5 @@ $ yarn generate
 ```
 
 Para mais detalhes acesse o link [Nuxt.js docs](https://nuxtjs.org).
+
+> Bem simples né ;) 
